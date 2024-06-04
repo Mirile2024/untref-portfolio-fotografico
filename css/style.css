@@ -16,8 +16,8 @@ html {
 
 body {
   margin: 0;
-}
 
+}
 article,
 aside,
 details,
@@ -2024,6 +2024,8 @@ h6 {
 
 .myre {
   padding-bottom: 24px;
+  max-width: 598.41px;
+
 }
 
 .art_smoke1 {
@@ -2038,6 +2040,8 @@ h6 {
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
+  max-width: 598.41px;
+
 }
 
 .div_h2 {
@@ -2051,31 +2055,31 @@ h6 {
 /* -------------Pricing-------------- */
 .tarjeta {
   display: flex;
-  gap: 10px;
-
+  gap: 16px;
+  justify-content: center;
+  max-width: 566.8px;
 }
-
 .art_tarjeta {
   background: #dddddd;
-  width: 351.98px;
+  width: 551.8px;
   text-align: center;
   font-size: ;
-  
+  color: ;
+
 }
 
 .art_header {
-  width: 351.98px;
+  width: 275.9px;
   height: 101px;
   line-height: 101px;
   color: white;
   margin: 0px;
-
   text-align: center;
   background-color: #5f5d5d;
 }
 
 .art_p {
-  width: 351.98px;
+  width: 275,9px;
   height: 56px;
   margin: 0px;
   margin-block: 2px;
@@ -2085,4 +2089,7 @@ h6 {
 }
 .btn_p{
   margin: 15px;
+}
+.btn_p{
+
 }
