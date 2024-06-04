@@ -2022,12 +2022,11 @@ h6 {
 
 }
 
-.myre {
+.myre ,.price {
   padding-bottom: 24px;
   max-width: 598.41px;
-
+color:#757575;
 }
-
 .art_smoke1 {
   display: flex;
   gap: 20px;
@@ -2051,7 +2050,14 @@ h6 {
   justify-content: start;
   gap: 20px;
 }
-
+.p_test{
+  font-size: 18px;
+  color: black;
+}
+.p_test2 {
+  color: #757575;
+  font-size: 15px;
+}
 /* -------------Pricing-------------- */
 .tarjeta {
   display: flex;
@@ -2063,12 +2069,11 @@ h6 {
   background: #dddddd;
   width: 551.8px;
   text-align: center;
-  font-size: ;
-  color: ;
 
 }
 
 .art_header {
+  font-size: 32px;
   width: 275.9px;
   height: 101px;
   line-height: 101px;
@@ -2077,8 +2082,21 @@ h6 {
   text-align: center;
   background-color: #5f5d5d;
 }
+.art_header2{
+  font-size: 32px;
+  width: 275.9px;
+  height: 101px;
+  line-height: 101px;
+  color: white;
+  margin: 0px;
+  text-align: center;
+  background-color: black;
+}
 
 .art_p {
+  
+  font-size: 15px;
+  color:#757575 ;
   width: 275,9px;
   height: 56px;
   margin: 0px;
@@ -2088,5 +2106,15 @@ h6 {
   background-color: #f1f1f1;
 }
 .btn_p{
+  font-size: 24px;
   margin: 15px;
+  color: black;
+}
+.art_pn{
+  font-size: 30px;
+  background-color: #f1f1f1;
+  margin: 0px;
+  color:#757575 ;
+
+
 }
