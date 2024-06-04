@@ -2054,6 +2054,7 @@ color:#757575;
 .p_test{
   font-size: 18px;
   color: black;
+  line-height: 27px;
 }
 .p_test2 {
   color: #757575;
@@ -2137,7 +2138,42 @@ gap: 25px;
 .formulario{
   display: flex;
   flex-direction: column;
-}
-#nombre{
   
+
+}
+#nombre, #email{
+  width: 100%;
+  height: 55.5px;
+  margin-bottom: 10px;
+}
+.p_form{
+  margin-top: 40px;
+
+}
+.btn_send{
+width: 190.02px;
+height: 47px;
+margin-top: 15px;
+margin-bottom: 50.5px;
+background-color: #f1f1f1;
+text-align: center;
+display: flex;
+justify-items: center;
+padding: 15px;
+
+
+}
+#enviar{
+  border: none;
+}
+@media(max-width:390px){
+  .tarjeta{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 390.73px;
+
+  }
+  .art_tarjeta{
+    width: 100%;
+  }
 }
