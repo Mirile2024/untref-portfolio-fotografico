@@ -2133,8 +2133,11 @@ gap: 25px;
   color: #757575;
   font-size: 30px;
 }
-.map{
-  /* display: flex; */
-  max-width:566.41px;
-  max-height: 346.77;
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+#nombre{
+  
 }
