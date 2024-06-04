@@ -2057,7 +2057,7 @@ h6 {
   display: flex;
   gap: 16px;
   justify-content: center;
-  max-width: 566.8px;
+  width: 566.8px;
 }
 .art_tarjeta {
   background: #dddddd;
@@ -2089,7 +2089,4 @@ h6 {
 }
 .btn_p{
   margin: 15px;
-}
-.btn_p{
-
 }
