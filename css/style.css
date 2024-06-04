@@ -2028,6 +2028,7 @@ h6 {
 color:#757575;
 }
 .art_smoke1 {
+  max-width: 1024px;
   display: flex;
   gap: 20px;
 }
@@ -2060,10 +2061,11 @@ color:#757575;
 }
 /* -------------Pricing-------------- */
 .tarjeta {
+  max-width: 1024px;
   display: flex;
   gap: 16px;
   justify-content: center;
-  width: 566.8px;
+  /* width: 566.8px; */
 }
 .art_tarjeta {
   background: #dddddd;
@@ -2074,7 +2076,7 @@ color:#757575;
 
 .art_header {
   font-size: 32px;
-  width: 275.9px;
+  /* width: 275.9px; */
   height: 101px;
   line-height: 101px;
   color: white;
@@ -2084,7 +2086,7 @@ color:#757575;
 }
 .art_header2{
   font-size: 32px;
-  width: 275.9px;
+  /* width: 275.9px; */
   height: 101px;
   line-height: 101px;
   color: white;
@@ -2116,5 +2118,23 @@ color:#757575;
   margin: 0px;
   color:#757575 ;
 
-
+}
+/* ------contact----------- */
+.contact{
+display: flex;
+flex-direction: column;
+}
+.contacto{
+display: flex;
+align-items: center;
+gap: 25px;
+}
+.contactame{
+  color: #757575;
+  font-size: 30px;
+}
+.map{
+  /* display: flex; */
+  max-width:566.41px;
+  max-height: 346.77;
 }
