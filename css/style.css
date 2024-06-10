@@ -2174,7 +2174,7 @@ padding: 15px;
   .tarjeta{
     display: flex;
     flex-direction: column;
-    margin-bottom: 390.73px;
+    /* margin-bottom: 390.73px; */
 
   }
   .art_tarjeta{
